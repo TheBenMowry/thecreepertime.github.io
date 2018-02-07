@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Classified</title>
+    <link rel="stylesheet" type="text/css" href="myButton.css">
+    <link rel="javascript" type="text/javascript" href="game.js">
+    <link rel="stylesheet" type="text/css" href="game.css">
+
+  </head>
+  <body>
+    <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="index.html">Home</a>
+  <a href="aboutme.html">About Me</a>
+  <a href="portfolio.html">Portfolio</a>
+  <a href="resume.html">Resume</a>
+<a href="tips.html">Tips & Tricks</a>
+  <a href="class.html">AP:CS Class</a>
+  <a href="game.html">Other</a></div>
+<span style="font-size:30px;cursor:pointer;color:orange" onclick="openNav()">&#9776; Open</span>
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+    <br>
+    <center><h1>The Shadow Realm</h1>
+<audio src=""></audio>
+<canvas></canvas>
+<div id="Controls">Play</div>
+    </body>
+    <div class="video-container">
+      <video autoplay loop id="video-background" muted plays-inline>
+        <source src="images/background1.mp4" type="video/mp4">
+      </video>
+    </div>
+</html>

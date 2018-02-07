@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Tips & Tricks</title>
+    <link rel="stylesheet" type="text/css" href="myButton.css">
+  </head>
+  <body>
+    <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="index.html">Home</a>
+  <a href="aboutme.html">About Me</a>
+  <a href="portfolio.html">Portfolio</a>
+  <a href="resume.html">Resume</a>
+  <a href="tips.html">Tips & Tricks</a>
+</div>
+<span style="font-size:30px;cursor:pointer;color:orange" onclick="openNav()">&#9776; Open</span>
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+    <br>
+    <center><h1>Coding Tips & Tricks</h1>
+    <img src="images/code.jpg" alt="Kool Computer Kode" height="250"></center>
+    <br>
+    <p><style type="text/css">
+      p {
+        color:red; 
+      font-size: 150%;
+      }
+      span.highlight {
+    background-color: black;
+}
+      </style>
+    <center><p><span class="highlight">   1. Constantly Save each file, and don't forget to refresh your website page!</p>
+    <br>
+    <p>  <span class="highlight"> 2. Use outside resources like an html code button generator.</p>
+    <br>
+    <p>  <span class="highlight"> 3. Don't forget to get and then give help to others!</p>
+    <br><p><span class="highlight">4. If it doesn't work at first: Try, Try, and Try again.</p>
+    <br><p><span class="highlight">Website Asset Inventory: All of my pictures and videos were found in the creative comment section of the web (CC0).<br>All programs are of my own creation and any advanced code was written by me with assistance from <a target="_blank" href="https://www.w3schools.com/">W3Schools</a>.<br></span></p></center>
+    <br>
+    <br>
+    <br>
+  </body>
+  <div class="video-container">
+      <video autoplay loop id="video-background" muted plays-inline>
+        <source src="images/background5.mp4" type="video/mp4">
+      </video>
+    </div>
+</html>

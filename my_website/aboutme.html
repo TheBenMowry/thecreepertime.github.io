@@ -1,0 +1,43 @@
+<!doctype html>
+	<html lang="en">
+	  <head>
+	    <meta charset="utf-8">
+	    <title>About Me</title>
+	    <link rel="stylesheet" type="text/css" href="myButton.css">
+	  </head>
+	  <body>
+    <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="index.html">Home</a>
+  <a href="aboutme.html">About Me</a>
+  <a href="portfolio.html">Portfolio</a>
+  <a href="resume.html">Resume</a>
+  <a href="tips.html">Tips & Tricks</a>
+</div>
+<span style="font-size:30px;cursor:pointer;color:orange" onclick="openNav()">&#9776; Open</span>
+<script>
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+    <br>
+    <center><h1> <marquee behavior="scroll" direction="right" scrollamount="12">About Me</marquee> </h1>
+    <br>
+        <img src="images/myAvatar.png" alt="A Cool Lookin' Avatar" height="250">
+    <p>
+        I am 16, a Junior, and hoping to go into Computer Science as a carrer.
+    </p>
+    <p> 
+       My Favorite website: <a target="_blank" href="http://weirdorconfusing.com/">WeirdOrConfusing.com</a></p>
+    <p>
+       Try it out; it sends you to where someone is selling something random.</p>
+    <p> <a target="_blank" href="http://www.theuselessweb.com/">The Useless Web is great too!</a></p></center>
+	  </body>
+	  <div class="video-container">
+      <video autoplay loop id="video-background" muted plays-inline>
+        <source src="images/background3.mp4" type="video/mp4">
+	</html>
